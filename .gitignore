@@ -30,3 +30,4 @@ playground.xcworkspace
 # Carthage
 Carthage/Checkouts
 Carthage/Build
+.build/

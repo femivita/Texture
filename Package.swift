@@ -22,12 +22,6 @@ let package = Package(
         "Info.plist",
       ],
       publicHeadersPath: ".",
-      cSettings: [
-        .unsafeFlags(["-fmodule-map-file=Source/module.modulemap"]),
-      ],
-      cxxSettings: [
-        .unsafeFlags(["-std=c++11"]),
-      ],
       linkerSettings: [
         .linkedLibrary("c++"),
         .linkedFramework("CoreGraphics"),
